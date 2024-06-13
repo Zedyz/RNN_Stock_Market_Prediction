@@ -1,7 +1,7 @@
 # Stock Market Prediction using RNNs
 
 ## Project Overview
-This project aims to predict stock market movements by leveraging historical price data and a variety of technical indicators including: `c_open`, `c_high`, `c_low`, `n_close`, `n_adj_close`, `Adj Close`, `Normalized_MA_5`, `Normalized_MA_10`, `Normalized_MA_15`, `Normalized_MA_20`, `Normalized_MA_25`, and `Normalized_MA_30`. We utilize advanced machine learning models such as LSTM (Long Short-Term Memory) and GRU (Gated Recurrent Units) RNNs (Recurrent Neural Networks) to analyze trends and predict future stock prices.
+This project aims to predict stock market movements by leveraging historical price data and a variety of indicators including: `c_open`, `c_high`, `c_low`, `n_close`, `n_adj_close`, `Adj Close`, `Normalized_MA_5`, `Normalized_MA_10`, `Normalized_MA_15`, `Normalized_MA_20`, `Normalized_MA_25`, and `Normalized_MA_30`. We utilize advanced machine learning models such as LSTM (Long Short-Term Memory) and GRU (Gated Recurrent Units) RNNs (Recurrent Neural Networks) to analyze trends and predict future stock prices.
 
 ### Data Preparation
 Should you experience any issues with the dataset, it may be necessary to clear the contents of the `train`, `validation`, and `test` directories. Afterwards, execute the `prepare_data.py` script found in the `dataset/price/raw` subfolder. Ensure that the raw price data is correctly placed within this folder prior to running the script.
